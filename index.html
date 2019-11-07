@@ -34,6 +34,12 @@
         }
 
         class Card extends React.Component {
+            constructor() {
+                super();
+                this.state = {
+                    cardData: []
+                };
+            }
             render() {
                 return (
                     <div className="Card -front">
